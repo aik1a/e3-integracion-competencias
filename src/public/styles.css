@@ -1,0 +1,22 @@
+:root { font-family: system-ui, sans-serif; color: #172033; background: #f2f4f8; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
+nav { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; padding: .75rem 0; border-bottom: 1px solid #ccd3df; }
+nav span { margin-right: auto; }
+nav form, .en-linea { display: inline; }
+a { color: #174ea6; }
+.tarjeta { max-width: 560px; padding: 1.25rem; border: 1px solid #ccd3df; border-radius: .5rem; background: white; }
+label { display: grid; gap: .35rem; margin-bottom: 1rem; font-weight: 600; }
+input, select, button { font: inherit; padding: .65rem; border: 1px solid #9ba7b8; border-radius: .35rem; }
+button, .boton { color: white; background: #174ea6; border: 0; cursor: pointer; text-decoration: none; display: inline-block; padding: .65rem .9rem; border-radius: .35rem; }
+button.secundario { background: #5b6472; padding: .4rem .6rem; }
+.acciones { display: flex; gap: .75rem; flex-wrap: wrap; }
+.mensaje { padding: .75rem; border-radius: .35rem; background: #d9f5df; }
+.mensaje.error { background: #ffe0e0; }
+.tabla { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td { text-align: left; padding: .65rem; border: 1px solid #ccd3df; }
+section { margin-top: 2rem; }
+.formulario-reporte { display: flex; gap: .75rem; align-items: end; max-width: 480px; }
+.formulario-reporte label { flex: 1; margin: 0; }

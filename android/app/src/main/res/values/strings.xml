@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checking_server">Conectando con el servidor…</string>
+    <string name="server_error">No se pudo conectar con el servidor local. Comprueba que Node.js y MySQL estén iniciados en el PC y vuelve a intentar.</string>
+    <string name="retry">Reintentar</string>
+    <string name="confirm_title">Confirmar operación</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+</resources>
