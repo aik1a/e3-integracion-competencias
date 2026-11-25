@@ -1,5 +1,12 @@
 # E3_ESTADO.md
 
+## Estado actualizado por Orquestador
+
+- GitHub publicado: rama `e3/android-mvp`, commit `bba1c2f3c4d4887b165b509de2cc4daa5bb024a4`. Copia local sincronizada; los 100 archivos coinciden en el arbol Git `488d8295b552a6c1a371b740b10d34dc7a47d8b9`.
+- APK instalado realmente en Pixel_10_Pro (`emulator-5554`), resultado `Success`. Android sigue `RUNNING_LOCKED` y pide PIN. Login Android **NO EJECUTADO**; se solicito desbloqueo al usuario. Etapa 2 no iniciada.
+- Android Studio cambio localmente wrapper a Gradle 9.9.1 y creo `android/gradle/gradle-daemon-jvm.properties` (Java 25). Cambios conservados sin publicar ni validar; APK anterior compilo con Gradle 9.8.2.
+- Backend activo en 3000, MySQL aislado en 3307. Pruebas: 19/19 unitarias y 4/4 integracion MySQL correctas.
+
 ## Identidad
 
 - Copia E3: `C:\Users\Admin\Documents\ChatGPT\e3\e3-integracion-competencias`.
